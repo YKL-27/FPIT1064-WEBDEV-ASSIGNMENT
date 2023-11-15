@@ -1,0 +1,27 @@
+body {
+    animation: anime_color;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    font-family: 'Comic Sans MS', Arial, sans-serif;
+    color:rgb(0, 81, 186);
+}
+
+@keyframes anime_color {
+    0% {background-color: red;}
+    16% {background-color: orange;}
+    32% {background-color: yellow;}
+    48% {background-color: lime;}
+    64% {background-color: cyan;}
+    80% {background-color: magenta;}
+    100% {background-color: red;}
+}
+
+nav {
+    background-color: rgb(188, 254, 254);
+}
+
+footer {
+    background-color: rgb(188, 254, 254);
+    font-size: small;
+    font-style: italic;
+}
