@@ -1,27 +1,55 @@
-body {
-    animation: anime_color;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-    font-family: 'Comic Sans MS', Arial, sans-serif;
-    color:rgb(0, 81, 186);
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
 }
 
-@keyframes anime_color {
-    0% {background-color: red;}
-    16% {background-color: orange;}
-    32% {background-color: yellow;}
-    48% {background-color: lime;}
-    64% {background-color: cyan;}
-    80% {background-color: magenta;}
-    100% {background-color: red;}
+.banner{
+    width: 100%;
+    height: 50%;
+    background-size: cover;
+    background-position: center;
+    background-color: chocolate;
 }
 
-nav {
-    background-color: rgb(188, 254, 254);
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-footer {
-    background-color: rgb(188, 254, 254);
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 100%;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+footer{
     font-size: small;
     font-style: italic;
 }
