@@ -9,7 +9,7 @@
     height: 50%;
     background-size: cover;
     background-position: center;
-    background-color: chocolate;
+    background-color: skyblue;
 }
 
 .navbar{
@@ -49,7 +49,15 @@
     text-transform: uppercase;
 }
 
+main{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
 footer{
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
     font-size: small;
     font-style: italic;
 }
