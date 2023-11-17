@@ -60,13 +60,13 @@
 
 main{
     background-color: aquamarine;
+    height: 93.5vh;
 }
 
 .main-content{
     padding-top: 25vh;
     position: relative;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin: 0 5%;
     color: black;
 }
 
@@ -75,7 +75,7 @@ footer{
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: blue;
+    background-color: black;
     color: white;
     text-align: center;
     font-size: small;
