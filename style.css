@@ -11,9 +11,14 @@
     width: 100%;
     background-size: cover;
     background-position: center;
-    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background2.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(banner.jpg);
     position: sticky;
     z-index: 1;
+}
+
+.logo{
+    width: 100px;
+    cursor: pointer;
 }
 
 .navbar{
@@ -23,11 +28,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.logo{
-
-    cursor: pointer;
 }
 
 .navbar ul li{
@@ -65,9 +65,7 @@ main{
 }
 
 .main-content{
-    padding-top: 25vh;
     max-width: 800px;
-    margin: 0 auto;
     position: relative;
     margin: 0 5%;
     color: black;
@@ -76,18 +74,20 @@ main{
 .image-button{
     width: 90%;
     height: auto;
+    margin: 0 5%;
     display: inline-block;
     border-radius: 10px;
-    padding: 15px 25px;
+    padding: 10px 20px;
+    margin: 10px 15px;
     box-sizing: border-box;
     cursor: pointer;
-    margin: 10px 15px;
     background-position: center;
     background-size: cover;
+    text-align: center;
 }
 
 .image-button img {
-    width: 50%;
+    width: 100%;
     height: auto;
 }
 
