@@ -2,23 +2,23 @@
     margin: 0;
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    line-height: 2.5;
+    line-height: 2;
 }
 
 .banner{
-    top: 0;
-    width: 100%;
+    top: 0; 
     height: 25vh;
+    width: 100%;
     background-size: cover;
     background-position: center;
     background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background2.jpg);
-    position: fixed;
+    position: sticky;
     z-index: 1;
 }
 
 .navbar{
-    width: 85%;
-    margin: auto;
+    width: 85vw;
+    margin: 0 auto;
     padding: 20px 0;
     display: flex;
     align-items: center;
@@ -26,7 +26,7 @@
 }
 
 .logo{
-    width: 120px;
+
     cursor: pointer;
 }
 
@@ -61,29 +61,20 @@
 main{
     background-color: aquamarine;
     height: 100%;
+    width: 100%;
 }
 
 .main-content{
     padding-top: 25vh;
+    max-width: 800px;
+    margin: 0 auto;
     position: relative;
     margin: 0 5%;
     color: black;
 }
 
-footer{
-    position: static;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: black;
-    color: white;
-    text-align: center;
-    font-size: small;
-    font-style: italic;
-}
-
 .image-button{
-    width: 100%;
+    width: 90%;
     height: auto;
     display: inline-block;
     border-radius: 10px;
@@ -96,22 +87,8 @@ footer{
 }
 
 .image-button img {
-    width: 100%;
+    width: 50%;
     height: auto;
-}
-
-.banner {
-    width: 100%;
-}
-
-.navbar {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.main-content {
-    max-width: 800px;
-    margin: 0 auto;
 }
 
 .col {
@@ -121,6 +98,14 @@ footer{
     justify-content: center;
 }
 
-.footer {
+footer{
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
     text-align: center;
+    font-size: small;
+    font-style: italic;
 }
