@@ -67,7 +67,7 @@ main{
 .main-content{
     max-width: 800px;
     position: relative;
-    margin: 0 5%;
+    margin: 25vh 5% 0;
     color: black;
 }
 
