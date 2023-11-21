@@ -11,7 +11,7 @@
     height: 25vh;
     background-size: cover;
     background-position: center;
-    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background2.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(banner.jpg);
     position: fixed;
     z-index: 1;
 }
@@ -24,6 +24,7 @@
     align-items: center;
     justify-content: space-between;
 }
+
 .logo{
     width: 175px;
     cursor: pointer;
@@ -91,7 +92,41 @@ footer{
     margin: 0 auto;
 }
 
-
 .footer {
     text-align: center;
+}
+
+.discover{
+    text-align:center;
+}
+
+.slogan{
+    text-align: center;
+    border: 1px solid black;
+}
+
+.button {
+    color: #fff;
+    cursor: pointer;
+    margin-left:5%;
+    margin-bottom: 10%;
+    margin-right: 5%;
+}
+
+.image-button{
+    width: 40%;
+    display: inline-block;
+    border-radius: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10%;
+    border:1px solid black
+}
+
+.image-button img {
+    width: 100%;
+    height: auto;
 }
