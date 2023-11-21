@@ -2,38 +2,38 @@
     margin: 0;
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    line-height: 2;
+    line-height: 2.5;
 }
 
 .banner{
-    top: 0; 
-    height: 25vh;
+    top: 0;
     width: 100%;
+    height: 25vh;
     background-size: cover;
     background-position: center;
-    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(banner.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(banner.jpg);
     position: fixed;
     z-index: 1;
 }
 
-.logo{
-    width: 100px;
-    cursor: pointer;
-}
-
 .navbar{
-    width: 85vw;
-    margin: 0 auto;
+    width: 85%;
+    margin:auto;
     padding: 20px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
+.logo{
+    width: 175px;
+    cursor: pointer;
+}
+
 .navbar ul li{
     list-style: none;
     display: inline-block;
-    margin: 0 20px;
+    margin: 0 25px;
     position: relative;
 }
 
@@ -47,7 +47,7 @@
     content: '';
     height: 3px;
     width: 0;
-    background: #009688;
+    background: #098;
     position: absolute;
     left: 0;
     bottom: -5px;
@@ -59,54 +59,74 @@
 }
 
 main{
-    background-color: aquamarine;
+    background-color: #ffffff;
     height: 100%;
-    width: 100%;
 }
 
 .main-content{
-    max-width: 800px;
+    padding-top: 25vh;
     position: relative;
-    margin: 25vh 5% 0;
+    margin:auto;
     color: black;
-}
-
-.image-button{
-    width: 90%;
-    height: auto;
-    margin: 0 5%;
-    display: inline-block;
-    border-radius: 10px;
-    padding: 10px 20px;
-    margin: 10px 15px;
-    box-sizing: border-box;
-    cursor: pointer;
-    background-position: center;
-    background-size: cover;
-    text-align: center;
-}
-
-.image-button img {
-    width: 100%;
-    height: auto;
-}
-
-.col {
-    display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(500px,1fr));
-    gap: 20px;
-    justify-content: center;
+    max-width:800px;
 }
 
 footer{
+    position: static;
     left: 0;
     bottom: 0;
     width: 100%;
-    padding-bottom: 10rem,;
-    position: static;
     background-color: black;
     color: white;
     text-align: center;
     font-size: small;
     font-style: italic;
+}
+
+.banner {
+    width: 100%;
+}
+
+.navbar {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer {
+    text-align: center;
+}
+
+.discover{
+    text-align:center;
+}
+
+.slogan{
+    text-align: center;
+    border: 1px solid black;
+}
+
+.button {
+    color: #fff;
+    cursor: pointer;
+    margin-left:5%;
+    margin-bottom: 10%;
+    margin-right: 5%;
+}
+
+.image-button{
+    width: 40%;
+    display: inline-block;
+    border-radius: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10%;
+    border:1px solid black
+}
+
+.image-button img {
+    width: 100%;
+    height: auto;
 }
