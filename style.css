@@ -66,9 +66,8 @@ main{
 .wrapper{
     padding-top: 25vh;
     position: relative;
-    margin:auto;
+    margin: 0 auto;
     color: black;
-    max-width:800px;
 }
 
 .discover{
@@ -81,7 +80,7 @@ main{
 }
 
 .button {
-    color: #fff;
+    color: #ffffff;
     cursor: pointer;
     margin-left:5%;
     margin-bottom: 10%;
@@ -100,6 +99,10 @@ main{
     background-size: cover;
     border-radius: 10%;
     border:1px solid black
+}
+
+img{
+    width: 100%;
 }
 
 .image-button img {
