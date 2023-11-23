@@ -65,10 +65,10 @@ main{
 }
 
 .wrapper{
-    padding-top: 25vh;
+    margin-top: 25vh;
     position: relative;
-    margin: 0 auto;
-    color: black;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .discover{
@@ -125,22 +125,41 @@ footer{
 /* YK's parts for products.html */
 
 .container{
-    width: 20%;
+    width: 20vw;
     min-height: 40vh;
     display: inline-block;
-    margin: 10px 15px;
-    padding: 1% 3%;
     border:1px solid black;
-    border-radius: 10%;
     background-color: aquamarine;
     word-wrap: break-word;
     vertical-align: top;
     box-shadow: 3px 3px 3px 3px black;
 }
 
-.container ul li{
+.products-button{
+    background-color: blue;
+    padding: 5px;
+}
+
+.text{
     text-align: left;
-    font-size: .5em;
+    padding: 0 5px;
+}
+
+.text h5{
+    font-size: 1.1em;
+}
+
+.text ul li{
+    list-style-type: none;
+    font-size: 0.8em;
+}
+
+.products-button button{
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
 }
 
 @media only screen and (max-width:768px){
