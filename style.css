@@ -1,3 +1,4 @@
+/* General Style */
 *{
     margin: 0;
     padding: 0;
@@ -65,17 +66,32 @@ main{
 }
 
 .wrapper{
+    margin-top: 25vh;
     position: relative;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
+
+footer{
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: small;
+    font-style: italic;
+}
+
+/* Unique for index.html */
 
 .discover{
     text-align:center;
 }
 
 .slogan{
-    margin-top: 25vh;
     text-align: center;
     border: 1px solid black;
 }
@@ -108,18 +124,6 @@ img{
 .image-button img {
     width: 100%;
     height: auto;
-}
-
-footer{
-    position: static;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: black;
-    color: white;
-    text-align: center;
-    font-size: small;
-    font-style: italic;
 }
 
 /* YK's parts for products.html */
@@ -178,16 +182,14 @@ footer{
     background: #2c3e50;
 }
 
-
 input[type="file"]{
     display: none;
 }
 
-
 label{
     display: inline-block;
     text-transform: uppercase;
-    color: #fff;
+    color: #ffffff;
     background: #c0392b;
     text-align: center;
     padding: 15px 40px;
@@ -199,67 +201,13 @@ label{
     border-radius: 3px;
 }
 
-
 label i{
     font-size: 20px;
     margin-right: 10px;
 }
-
 
 label:active{
     transform:scale(0.9);
 }
 
 /* CH's parts for about.html */
-
-.banner {
-    width: 100%;
-}
-
-
-
-
-.navbar {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-
-.footer,.discover ,.about{
-    text-align: center;
-}
-
-
-.slogan{
-    text-align: center;
-    border: 1px solid black;
-}
-
-
-.button {
-    color: #fff;
-    cursor: pointer;
-    margin-left:5%;
-    margin-bottom: 10%;
-    margin-right: 5%;
-}
-
-
-.image-button{
-    width: 40%;
-    display: inline-block;
-    border-radius: 10px;
-    box-sizing: border-box;
-    cursor: pointer;
-    margin: 10px 15px;
-    background-position: center;
-    background-size: cover;
-    border-radius: 10%;
-    border:1px solid black
-}
-
-
-.image-button img {
-    width: 100%;
-    height: auto;
-}
