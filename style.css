@@ -29,7 +29,7 @@
 }
 
 .logo{
-    height: 80px;
+    height: 60px;
     cursor: pointer;
 }
 
@@ -96,7 +96,9 @@ footer{
 
 .discover{
     display: flex;
+    flex-wrap: wrap;
     text-align: center;
+    justify-content: space-evenly;
 }
 
 .slogan{
@@ -135,8 +137,8 @@ img{
 
 .container{
     position: relative;
-    width: 40vh;
-    min-height: 40vh;
+    width: 250px;
+    min-height: 50vh;
     display: inline-block;
     margin: 10px;
     /* border: 1px solid black; */
