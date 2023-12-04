@@ -92,14 +92,14 @@ footer{
     font-style: italic;
 }
 
-/* Unique for index.html */
-
 .discover{
     display: flex;
     flex-wrap: wrap;
     text-align: center;
     justify-content: space-evenly;
 }
+
+/* Unique for index.html */
 
 .slogan{
     text-align: center;
