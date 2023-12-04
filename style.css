@@ -120,7 +120,7 @@ footer{
     padding: 1%;
     background-position: center;
     background-size: cover;
-    border-radius: 10%;
+    border-radius: 20px;
     border:1px solid black
 }
 
@@ -138,7 +138,7 @@ img{
 .product-box{
     position: relative;
     width: 250px;
-    min-height: 50vh;
+    min-height: 40vh;
     display: inline-block;
     margin: 10px;
     /* border: 1px solid black; */
@@ -147,10 +147,11 @@ img{
     box-shadow: 0px 0px 20px 3px #2c3e50;
     padding-bottom: 60px;
     text-align: center;
+    border-radius: 20px;
 }
 
 .product-img{
-    width: 50%;
+    width: 40%;
     margin: 10px auto 0;
 }
 
@@ -177,6 +178,7 @@ img{
     position: absolute;
     bottom: 0;
     width: 100%;
+    border-radius: 0px 0px 20px 20px;
 }
 
 .products-button button{
