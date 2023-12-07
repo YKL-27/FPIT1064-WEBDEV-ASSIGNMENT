@@ -111,8 +111,9 @@ footer{
     cursor: pointer;
 }
 
-.image-button{
-    width: 40%;
+.discover-button{
+    width: 500px;
+    height: 300px;
     display: inline-block;
     border-radius: 10px;
     cursor: pointer;
@@ -131,6 +132,22 @@ img{
 .image-button img {
     width: 100%;
     height: auto;
+}
+
+#phone-button{
+    background-image: url(media/vibraniumposter.jpg);
+}
+
+#audio-button{
+    background-image: url(media/vibraniumposter.jpg);
+}
+
+#accessory-button{
+    background-image: url(media/vibraniumposter.jpg);
+}
+
+#recycle-button{
+    background-image: url(media/vibraniumposter.jpg);
 }
 
 /* YK's parts for products.html */
