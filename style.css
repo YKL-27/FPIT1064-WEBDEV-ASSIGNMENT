@@ -1,4 +1,4 @@
-/* General Style */
+/* !General Style */
 *{
     margin: 0;
     padding: 0;
@@ -63,6 +63,7 @@
 
 main{
     background-color: #ffffff;
+    width: 100%;
     height: 100%;
 }
 
@@ -78,11 +79,15 @@ main{
     margin-bottom: 1%;
 }
 
+img{
+    width: 100%
+}
+
 footer{
     position: relative;
     left: 0;
     bottom: 0;
-    height: 10vh;
+    height: 20vh;
     width: 100%;
     padding-top: 10px;
     background-color: black;
@@ -92,44 +97,37 @@ footer{
     font-style: italic;
 }
 
+/* !Unique for index.html */
+
+.slogan{
+    text-align: center;
+    /* border: 1px solid black; */
+}
+
 .discover{
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     text-align: center;
     justify-content: space-evenly;
 }
 
-/* Unique for index.html */
-
-.slogan{
-    text-align: center;
-    border: 1px solid black;
-}
-
-.button {
-    color: #ffffff;
-    cursor: pointer;
-}
-
 .discover-button{
-    width: 500px;
-    height: 300px;
+    position: relative;
+    width: 45%;
+    height: 40vh;
     display: inline-block;
-    border-radius: 10px;
     cursor: pointer;
     margin: 10px 15px;
-    padding: 1%;
+    /* padding: 1%; */
     background-position: center;
     background-size: cover;
     border-radius: 20px;
-    border:1px solid black
+    cursor: pointer;
+    /* border:1px solid black */
 }
 
-img{
-    width: 100%;
-}
-
-.image-button img {
+.discover-button img {
     width: 100%;
     height: auto;
 }
@@ -150,12 +148,19 @@ img{
     background-image: url(media/vibraniumposter.jpg);
 }
 
-/* YK's parts for products.html */
+/* !YK's parts for products.html */
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-evenly;
+}
 
 .product-box{
     position: relative;
-    width: 250px;
-    min-height: 40vh;
+    width: 20%;
+    min-height: 30vh;
     display: inline-block;
     margin: 10px;
     /* border: 1px solid black; */
@@ -211,7 +216,7 @@ img{
     background-color: #c0392b;
 }
 
-/* QX's parts for recycle.html */
+/* !QX's parts for recycle.html */
 
 .recyclePage{
     height: 100vh;
@@ -249,6 +254,6 @@ label:active{
     transform:scale(0.9);
 }
 
-/* CH's parts for about.html */
+/* !CH's parts for contact.html */
 
-/* :) */
+/* !CH's parts for about.html */
