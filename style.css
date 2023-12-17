@@ -173,7 +173,7 @@ footer{
 }
 
 .product-img{
-    width: 40%;
+    max-width: 140px;
     margin: 10px auto 0;
 }
 
