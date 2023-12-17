@@ -2,7 +2,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Tahoma, sans-serif;
     line-height: 2.5;
     box-sizing: border-box;
 }
@@ -159,7 +159,7 @@ footer{
 
 .product-box{
     position: relative;
-    width: 20%;
+    max-width: 260px;
     min-height: 30vh;
     display: inline-block;
     margin: 10px;
@@ -175,6 +175,15 @@ footer{
 .product-img{
     width: 40%;
     margin: 10px auto 0;
+}
+
+.newproduct{
+    font-size: 0.5em;
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 .product-text{
