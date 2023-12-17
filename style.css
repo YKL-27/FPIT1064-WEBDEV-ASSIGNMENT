@@ -1,7 +1,7 @@
 /* !General Style */
 html{
     scroll-behavior: smooth;
-    scroll-padding: 10rem;
+    scroll-padding-top: 6.5rem;
 }
 
 *{
@@ -119,8 +119,8 @@ footer{
 
 .discover-button{
     position: relative;
-    width: 45%;
-    height: 40vh;
+    min-width: 650px;
+    min-height: 325px;
     display: inline-block;
     cursor: pointer;
     margin: 10px 15px;
@@ -132,24 +132,20 @@ footer{
     /* border:1px solid black */
 }
 
-.discover-button img {
-    width: 100%;
-    height: auto;
-}
 
-#phone-button{
+#discover-phone-button{
     background-image: url(media/vibraniumposter.jpg);
 }
 
-#audio-button{
+#discover-audio-button{
     background-image: url(media/vibraniumposter.jpg);
 }
 
-#accessory-button{
+#discover-accessory-button{
     background-image: url(media/vibraniumposter.jpg);
 }
 
-#recycle-button{
+#discover-recycle-button{
     background-image: url(media/vibraniumposter.jpg);
 }
 
