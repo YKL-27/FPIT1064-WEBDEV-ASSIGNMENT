@@ -1,0 +1,72 @@
+/* !Unique for index.html */
+
+.slogan{
+    text-align: center;
+    /* border: 1px solid black; */
+}
+
+.discover{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.discover-button{
+    position: relative;
+    max-width: 650px;
+    max-height: 325px;
+    width: 40vmax;
+    height: 20vmax;
+    display: inline-block;
+    cursor: pointer;
+    margin: 10px 15px;
+    /* padding: 1%; */
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    cursor: pointer;
+    /* border:1px solid black */
+}
+
+#discover-phone-button{
+    background-image: url(media/vibraniumposter.jpg);
+}
+
+#discover-audio-button{
+    background-image: url(media/banner.jpg);
+}
+
+#discover-accessory-button{
+    background-image: url(media/aifon15pro.jpg);
+}
+
+#discover-recycle-button{
+    background-image: url(media/vibraniumposter.jpg);
+}
+
+.discover-desc{
+    background-color: whitesmoke;
+    opacity: 0.25;
+    border-radius: 0px 0px 20px 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
+}
+
+.discover-button:hover{
+    .discover-desc{
+        height: 100%;
+        opacity: 0.5;
+        border-radius: 20px;
+    }
+    .discover-desc h3{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+    }
+}
