@@ -59,6 +59,7 @@ img{
 .hscrollmenu{
     display: flex;
     overflow: auto;
+    overflow-x: scroll;
     white-space: nowrap;
     top: 50%;
 }
@@ -75,7 +76,6 @@ img{
 .hscrollmenu a:hover{
     color:#c0392b;
 }
-
 
 main{
     background-color: #ffffff;
