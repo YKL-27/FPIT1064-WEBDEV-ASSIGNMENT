@@ -48,6 +48,8 @@ p{
     margin-left: 460px;
 }
 
-ul{
-    margin-left: 500px;
+.steps{
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
 }
