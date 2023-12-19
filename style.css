@@ -109,6 +109,10 @@ footer{
     font-style: italic;
 }
 
+.about{
+    text-align: center;
+}
+
 
 /* !Media query for narrow screens */
 /* @media only screen and (max-width: 600px){
