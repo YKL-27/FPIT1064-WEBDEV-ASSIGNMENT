@@ -12,7 +12,11 @@ html{
     box-sizing: border-box;
 }
 
-.banner{
+img{
+    width: 100%;
+}
+
+.navbar-bg{
     top: 0;
     width: 100%;
     height: 12vh;
@@ -25,51 +29,53 @@ html{
 
 .navbar{
     width: 85%;
+    height: 100%;
     margin:0 auto;
-    padding: 1% 0;
     display: flex;
     align-items: center;
-    vertical-align: auto;
     justify-content: space-between;
 }
 
-img{
-    width: 100%;
-}
-
 .logo{
-    height: 25%;
-    width: 25%;
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
 }
 
-.navbar ul li{
-    list-style: none;
-    display: inline-block;
-    margin: 0 25px;
-    position: relative;
+.logo a{
+    text-decoration: none;
 }
 
-.navbar ul li a{
+.logo a img{
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+}
+
+.hscrollmenu{
+    display: flex;
+    overflow: auto;
+    white-space: nowrap;
+    top: 50%;
+}
+
+.hscrollmenu a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 25px;
     text-decoration: none;
-    color: #ffffff;
     text-transform: uppercase;
 }
 
-.navbar ul li::after{
-    content: '';
-    height: 3px;
-    width: 0;
-    background: #098;
-    position: absolute;
-    left: 0;
-    bottom: 5px;
-    transition: 0.25s;
+.hscrollmenu a:hover{
+    color:#c0392b;
 }
 
-.navbar ul li:hover::after{
-    width: 100%;
-}
 
 main{
     background-color: #ffffff;
@@ -307,8 +313,8 @@ label:active{
 /* !CH's parts for about.html */
 
 /* !Media query for narrow screens */
-@media only screen and (max-width: 600px){
+/* @media only screen and (max-width: 600px){
     .banner{
         height: 30vh;
     }
-}
+} */
