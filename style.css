@@ -1,7 +1,7 @@
 /* !General Style */
 html{
     scroll-behavior: smooth;
-    scroll-padding-top: 5rem;
+    scroll-padding-top: 4rem;
 }
 
 *{
@@ -15,7 +15,7 @@ html{
 .banner{
     top: 0;
     width: 100%;
-    height: 15vh;
+    height: 12vh;
     background-size: cover;
     background-position: center;
     background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(media/banner.jpg);
@@ -33,8 +33,13 @@ html{
     justify-content: space-between;
 }
 
+img{
+    width: 100%;
+}
+
 .logo{
-    height: 60px;
+    height: 25%;
+    width: 25%;
     cursor: pointer;
 }
 
@@ -84,10 +89,6 @@ main{
     margin-bottom: 1%;
 }
 
-img{
-    width: 100%
-}
-
 footer{
     position: relative;
     left: 0;
@@ -119,8 +120,10 @@ footer{
 
 .discover-button{
     position: relative;
-    min-width: 500px;
-    min-height: 250px;
+    max-width: 650px;
+    max-height: 325px;
+    width: 40vmax;
+    height: 20vmax;
     display: inline-block;
     cursor: pointer;
     margin: 10px 15px;
@@ -156,13 +159,12 @@ footer{
     bottom: 0;
     width: 100%;
     color: black;
-    font-size: larger;
     text-align: center;
 }
 
 .discover-button:hover{
     .discover-desc{
-        height: 325px;
+        height: 100%;
         opacity: 0.5;
         border-radius: 20px;
     }
@@ -189,7 +191,8 @@ footer{
 
 .product-box{
     position: relative;
-    min-width: 300px;
+    min-width: 250px;
+    width: 20vmax;
     min-height: 30vh;
     display: inline-block;
     margin: 10px;
@@ -215,6 +218,7 @@ footer{
 .product-remark{
     color: red;
     font-weight: bold;
+    font-size: 0.75em;
     text-align: center;
     margin: 0px;
     padding: 0px;
@@ -223,6 +227,7 @@ footer{
 .product-text{
     text-align: left;
     padding: 0 5px;
+    font-size: 0.75em;
 }
 
 .product-text h5{
@@ -300,3 +305,10 @@ label:active{
 /* !CH's parts for contact.html */
 
 /* !CH's parts for about.html */
+
+/* !Media query for narrow screens */
+@media only screen and (max-width: 600px){
+    .banner{
+        height: 30vh;
+    }
+}
