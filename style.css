@@ -119,8 +119,8 @@ footer{
 
 .discover-button{
     position: relative;
-    min-width: 650px;
-    min-height: 325px;
+    min-width: 500px;
+    min-height: 250px;
     display: inline-block;
     cursor: pointer;
     margin: 10px 15px;
@@ -262,15 +262,15 @@ footer{
 /* !QX's parts for recycle.html */
 
 .recyclePage{
-    height: 100vh;
+    height: 60vh;
     display: grid;
     place-content: center;
     font-family: 'Poppins' , sans-serif;
-    background: #2c3e50;
 }
 
 input[type="file"]{
     display: none;
+    cursor: pointer;
 }
 
 label{
