@@ -311,6 +311,10 @@ label:active{
 /* !CH's parts for contact.html */
 
 /* !CH's parts for about.html */
+.about{
+    text-align: center;
+}
+
 
 /* !Media query for narrow screens */
 /* @media only screen and (max-width: 600px){
