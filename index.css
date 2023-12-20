@@ -17,8 +17,8 @@
     position: relative;
     max-width: 650px;
     max-height: 325px;
-    width: 40vmax;
-    height: 20vmax;
+    width: 30vmax;
+    height: 15vmax;
     display: inline-block;
     cursor: pointer;
     margin: 10px 15px;
@@ -27,40 +27,42 @@
     background-size: cover;
     border-radius: 20px;
     cursor: pointer;
+    box-shadow: 0px 0px 20px 3px #404b55;
     /* border:1px solid black */
 }
 
 #discover-phone-button{
-    background-image: url(media/vibraniumposter.jpg);
+    background-image: url(media/hbphone.jpg);
 }
 
 #discover-audio-button{
-    background-image: url(media/banner.jpg);
+    background-image: url(media/hbaudio.jpg);
 }
 
 #discover-accessory-button{
-    background-image: url(media/aifon15pro.jpg);
+    background-image: url(media/hbaccs.jpg);
 }
 
 #discover-recycle-button{
-    background-image: url(media/vibraniumposter.jpg);
+    background-image: url(media/hbrecycle.jpg);
 }
 
 .discover-desc{
-    background-color: whitesmoke;
-    opacity: 0.25;
+    background-color: black;
+    opacity: 0;
     border-radius: 0px 0px 20px 20px;
     position: absolute;
     bottom: 0;
     width: 100%;
-    color: black;
+    color: white;
+    font-size: x-large;
     text-align: center;
 }
 
 .discover-button:hover{
     .discover-desc{
         height: 100%;
-        opacity: 0.5;
+        opacity: 0.75;
         border-radius: 20px;
     }
     .discover-desc h3{
