@@ -1,9 +1,12 @@
 /* !Unique for index.html */
 
+
 .slogan{
     text-align: center;
+    color: white;
     /* border: 1px solid black; */
 }
+
 
 .discover{
     width: 100%;
@@ -13,12 +16,13 @@
     justify-content: space-evenly;
 }
 
+
 .discover-button{
     position: relative;
-    max-width: 650px;
-    max-height: 325px;
-    width: 30vmax;
-    height: 15vmax;
+    min-width: 480px;
+    min-height: 240px;
+    max-width: 32vmax;
+    max-height: 16vmax;
     display: inline-block;
     cursor: pointer;
     margin: 10px 15px;
@@ -31,21 +35,26 @@
     /* border:1px solid black */
 }
 
+
 #discover-phone-button{
     background-image: url(media/hbphone.jpg);
 }
+
 
 #discover-audio-button{
     background-image: url(media/hbaudio.jpg);
 }
 
+
 #discover-accessory-button{
     background-image: url(media/hbaccs.jpg);
 }
 
+
 #discover-recycle-button{
     background-image: url(media/hbrecycle.jpg);
 }
+
 
 .discover-desc{
     background-color: black;
@@ -55,11 +64,14 @@
     bottom: 0;
     width: 100%;
     color: white;
-    font-size: x-large;
     text-align: center;
 }
 
+
 .discover-button:hover{
+    box-shadow: 0px 0px 30px 3px #6ab7ff;
+
+
     .discover-desc{
         height: 100%;
         opacity: 0.75;
@@ -71,4 +83,12 @@
         width: 100%;
         text-align: center;
     }
+}
+
+#bgVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
 }
