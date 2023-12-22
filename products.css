@@ -7,12 +7,15 @@
     flex-wrap: wrap;
     text-align: center;
     justify-content: space-evenly;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .product-box{
     position: relative;
-    min-width: 250px;
-    width: 20vmax;
+    min-width: 180px;
+    width: 15vw;
     min-height: 30vh;
     display: inline-block;
     margin: 10px;
@@ -26,12 +29,12 @@
 }
 
 .product-img-3x4{
-    max-width: 200px;
+    max-width: 180px;
     margin: 10px auto 0;
 }
 
 .product-img-1x1{
-    max-width: 270px;
+    max-width: 180px;
     margin: 10px auto 0;
 }
 

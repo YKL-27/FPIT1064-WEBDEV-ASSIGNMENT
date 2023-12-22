@@ -4,6 +4,7 @@
 .slogan{
     text-align: center;
     color: white;
+    padding-bottom: 2em;
     /* border: 1px solid black; */
 }
 
@@ -37,22 +38,22 @@
 
 
 #discover-phone-button{
-    background-image: url(media/hbphone.jpg);
+    background-image: url(media/posterphone.jpg);
 }
 
 
 #discover-audio-button{
-    background-image: url(media/hbaudio.jpg);
+    background-image: url(media/posteraudio.jpg);
 }
 
 
 #discover-accessory-button{
-    background-image: url(media/hbaccs.jpg);
+    background-image: url(media/posteraccs.jpg);
 }
 
 
 #discover-recycle-button{
-    background-image: url(media/hbrecycle.jpg);
+    background-image: url(media/posterrecycle.jpg);
 }
 
 
@@ -109,7 +110,18 @@
     padding-top: 1em;
     background-color: rgba(0, 0, 0, 0);
     color: white;
+    opacity: 0.25;
     text-align: center;
     font-size: xx-small;
     border: none;
 }
+
+.pausebutton button:hover{
+    opacity: 1;
+}
+
+/* @media only screen and (max-width: 600px){
+    .banner{
+        height: 30vh;
+    }
+} */
