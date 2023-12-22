@@ -7,6 +7,7 @@
     <link rel="icon" type="image/x-icon" href="media/favicon.ico">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 
 <body>
@@ -26,12 +27,33 @@
             </div>
         </div>
     </div>
-
+    
     <main>
         <video autoplay muted loop id="bgVideo">
             <source src="media/background.mp4" type="video/mp4">
-        </video>
+        </video>  
         
+        <div class="pausebutton"> 
+            <button onclick="playPause()" id="pauseplay">
+                <i class="material-icons">pause</i>
+            </button> 
+        </div>
+
+        <script>
+            const myVideo = document.getElementById("bgVideo"); 
+            var buttonText = document.getElementById("pauseplay")
+            function playPause() { 
+                if (myVideo.paused) {
+                    myVideo.play(); 
+                    buttonText.innerHTML = "<i class='material-icons'>pause</i>";
+                }
+                else {
+                    myVideo.pause(); 
+                    buttonText.innerHTML = "<i class='material-icons'>play_arrow</i>";
+                }
+            } 
+        </script>
+
         <div class="wrapper">
             <div class="slogan">
                 <h1>Best in Tech, Light on the Wallet.</h1>
