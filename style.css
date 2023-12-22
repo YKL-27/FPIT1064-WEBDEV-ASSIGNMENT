@@ -141,7 +141,7 @@ footer ul li a img{
     max-height: 40px;
     height: auto;
     filter: contrast(500%);
-    opacity: 0.1;
+    opacity: 0.3;
 }
 
 footer ul li a img:hover{
