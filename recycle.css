@@ -5,6 +5,10 @@
     font-family: 'Poppins' , sans-serif;
 }
 
+.important{
+    color:#FF4242;
+}
+
 input[type="file"]{
     display: none;
     cursor: pointer;
@@ -14,7 +18,7 @@ label{
     display: inline-block;
     text-transform: uppercase;
     color: #ffffff;
-    background: #c0392b;
+    background: #D01B1B;
     text-align: center;
     padding: 15px 40px;
     font-size: 18px;
@@ -41,6 +45,17 @@ h2{
 p{
     margin-left: 30px;
 }
+
+/* button {
+    background-color: #47ABD8;
+    box-shadow: 5px 15px 25px rgba(0,0,0,0.35);
+    color: #FFFFFF;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;    
+    font-size: 16px;
+} */
 
 .image{
     width: 400px;
