@@ -63,30 +63,27 @@
 .discover-desc{
     background-color: black;
     opacity: 0;
-    border-radius: 0px 0px 20px 20px;
     position: absolute;
-    bottom: 0;
     width: 100%;
-    color: white;
-    text-align: center;
 }
 
 
 .discover-button:hover{
     box-shadow: 0px 0px 40px 3px #47abd8;
+}
 
-    .discover-desc{
-        height: 100%;
-        opacity: 0.75;
-        border-radius: 20px;
-    }
-    .discover-desc h3{
-        color: #FFFFFF;
-        position: absolute;
-        bottom: 0;
-        width: 100%;
-        text-align: center;
-    }
+.discover-button:hover > .discover-desc{
+    height: 100%;
+    opacity: 0.75;
+    border-radius: 20px;
+}
+
+.discover-button:hover > .discover-desc h3{
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
 }
 
 #bgVideo {
@@ -102,7 +99,6 @@
 .pausebutton{
     position: relative;
     display: flex;
-    padding: auto;
     right: 0;
 }
 

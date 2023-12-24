@@ -113,7 +113,6 @@
     background-color: rgba(255,255,255,0.1);
     font-weight: bold;
     font-size: 18px;
-    transition: 0.6 ease;
     border-radius: 0 3px 3px 0;
     opacity: 0.8;
 
@@ -129,7 +128,7 @@
 }
 
 .fade{
-    animation: fade 0.5s;
+    animation: fade 1s;
 }
 
 @keyframes fade{
