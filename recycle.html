@@ -50,11 +50,12 @@
 
             <form>
                 <div class="recyclePage">
-                    <input type="file" id="uploadBtn">
+                    <input type="file" id="uploadBtn" required>
                     <label for="uploadBtn"><i class="fa-solid fa-upload"></i>Upload image</label>
-                    <input type="text" value="" id="Input" placeholder="Enter Your Phone Model">
+                    <input type="text" value="" id="Input" placeholder="Enter Your Phone Model" required>
                     <br>
-                    <button class="submitbutton" onclick="document.getElementById('Input').value = ''">Submit</button>
+                    <button class="submitbutton" onclick="checkRecycle()">Submit</button>
+                    <script src="alert.js"></script>
                 </div>
             </form>
 
