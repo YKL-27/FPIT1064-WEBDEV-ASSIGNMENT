@@ -5,7 +5,9 @@
     text-align: center;
     color: #95D2EC;
     padding-bottom: 2em;
-    /* border: 1px solid black; */
+    animation-name: floatdown;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
 }
 
 
@@ -27,13 +29,14 @@
     display: inline-block;
     cursor: pointer;
     margin: 10px 15px;
-    /* padding: 1%; */
     background-position: center;
     background-size: cover;
     border-radius: 20px;
     cursor: pointer;
     box-shadow: 0px 0px 10px 3px #343434;
-    /* border:1px solid black */
+    animation-name: floatup;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
 }
 
 
@@ -116,8 +119,44 @@
     border: none;
 }
 
+#pauseplaytext{
+    display: none;
+    color: #FFFFFF;
+    font-size: x-small;
+    height: 40px;
+    padding-top: 10px;
+    vertical-align: middle;
+    /* border: 1px solid #FFFFFF; */
+}
+
 .pausebutton button:hover{
     opacity: 1;
+}
+
+.pausebutton button:hover + #pauseplaytext{
+    display: inline-block;
+}
+
+@keyframes floatup {
+    0%{
+        transform: translate(0, 10px);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0, 0px); 
+        opacity: 1;
+    }     
+}
+
+@keyframes floatdown {
+    0%{
+        transform: translate(0, -10px);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0, 0px); 
+        opacity: 1;
+    }     
 }
 
 /* @media only screen and (max-width: 600px){

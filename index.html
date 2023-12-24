@@ -37,19 +37,23 @@
             <button onclick="playPause()" id="pauseplay">
                 <i class="material-icons">pause</i>
             </button> 
+            <div id="pauseplaytext">Pause video</div>
         </div>
 
         <script>
             const myVideo = document.getElementById("bgVideo"); 
-            var buttonText = document.getElementById("pauseplay")
+            var buttonText = document.getElementById("pauseplay");
+            var buttonDesc = document.getElementById("pauseplaytext");
             function playPause() { 
                 if (myVideo.paused) {
                     myVideo.play(); 
                     buttonText.innerHTML = "<i class='material-icons'>pause</i>";
+                    buttonDesc.innerText = "Pause video"
                 }
                 else {
                     myVideo.pause(); 
                     buttonText.innerHTML = "<i class='material-icons'>play_arrow</i>";
+                    buttonDesc.innerText = "Play video"
                 }
             } 
         </script>
