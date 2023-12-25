@@ -6,7 +6,7 @@
 }
 
 .important{
-    color:#FF4242;
+    color:var(--red);
 }
 
 input[type="file"]{
@@ -17,8 +17,8 @@ input[type="file"]{
 label{
     display: inline-block;
     text-transform: uppercase;
-    color: #ffffff;
-    background: #D01B1B;
+    color: white;
+    background: var(--red);
     text-align: center;
     padding: 15px 40px;
     font-size: 18px;
@@ -34,8 +34,17 @@ label i{
     margin-right: 10px;
 }
 
+label:hover{
+    background: var(--light-red);
+}
+
+
 label:active{
     transform:scale(0.9);
+}
+
+button{
+    margin: 5px 0;
 }
 
 p{
