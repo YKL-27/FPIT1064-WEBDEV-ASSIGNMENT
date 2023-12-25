@@ -52,7 +52,7 @@
 
 .product-text ul li{
     /* list-style-type: none; */
-    color: #646464;
+    color: var(--dark-gray);
     list-style-position: inside;
     padding-left: 1em;
     font-size: 0.8em;
@@ -83,6 +83,10 @@
     width: 100%;
 }
 
+button:active{
+    transform:scale(0.9);
+}
+
 .product-button:hover{
     background-color: var(--light-red) ;
 }
@@ -105,7 +109,8 @@
     width: auto;
     margin-top:-22px;
     padding: 16px;
-    background-color: rgba(255,255,255,0.1);
+    background-color: rgba(0,0,0,0.4);
+    color: white;
     font-weight: bold;
     font-size: 18px;
     border-radius: 0 3px 3px 0;
@@ -118,7 +123,17 @@
 }
 
 .prevslide:hover, .nextslide:hover{
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(0,0,0,0.7);
+}
+
+.nextslide:active{
+    transform:scale(0.9);
+    translate: 2px 0;
+}
+
+.prevslide:active{
+    transform:scale(0.9);
+    translate: -2px 0;
 }
 
 .fade{

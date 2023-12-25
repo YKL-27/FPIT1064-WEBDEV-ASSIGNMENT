@@ -38,7 +38,6 @@ label:hover{
     background: var(--light-red);
 }
 
-
 label:active{
     transform:scale(0.9);
 }
@@ -50,17 +49,6 @@ button{
 p{
     margin-left: 30px;
 }
-
-/* button {
-    background-color: #47ABD8;
-    box-shadow: 5px 15px 25px rgba(0,0,0,0.35);
-    color: #FFFFFF;
-    padding: 5px 15px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;    
-    font-size: 16px;
-} */
 
 .image{
     width: 400px;
