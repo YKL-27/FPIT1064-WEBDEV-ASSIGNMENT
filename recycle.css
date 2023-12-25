@@ -1,3 +1,5 @@
+/* Style exclusive for recycle.html 
+with inheritance from style.css */
 .recyclePage{
     height: 40vh;
     display: grid;
@@ -5,10 +7,27 @@
     font-family: 'Poppins' , sans-serif;
 }
 
+p{
+    margin-left: 30px;
+}
+
 .important{
     color:var(--red);
 }
 
+.image{
+    width: 400px;
+    height: auto;
+    margin-left: 460px;
+}
+
+.steps{
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Form */
 input[type="file"]{
     display: none;
     cursor: pointer;
@@ -44,20 +63,4 @@ label:active{
 
 button{
     margin: 5px 0;
-}
-
-p{
-    margin-left: 30px;
-}
-
-.image{
-    width: 400px;
-    height: auto;
-    margin-left: 460px;
-}
-
-.steps{
-    width: 55%;
-    margin-left: auto;
-    margin-right: auto;
 }

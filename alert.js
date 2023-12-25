@@ -1,7 +1,10 @@
+// Pop-up notification when "Add to Cart" button in product.html was clicked
 function addToCart(){
-    alert("Successfully add to cart!")
+    alert("Successfully added to cart!")
 }
 
+// Pop-up notification when "Submit" button in contact.html was clicked
+// Show different text based on presence check of all inputs and email must include "@"
 function checkMessage(){
     var name = document.getElementById("name").value;
     var email = document.getElementById("email").value;
@@ -10,7 +13,7 @@ function checkMessage(){
     
     if (name != "" && email != "" && subject != "" && message !=""){
         if (!email.includes("@")) {
-            alert("please enter a valid email address.");
+            alert("Please enter a valid email address.");
         }
         else{
             alert("Your message was sent successfully!");
@@ -21,6 +24,8 @@ function checkMessage(){
     }
 }
 
+// Pop-up notification when "Submit" button in recycle.html was clicked
+// Show different text based on presence check of all inputs.
 function checkRecycle(){
     var image = document.getElementById("uploadBtn").value;
     var text = document.getElementById("Input").value;

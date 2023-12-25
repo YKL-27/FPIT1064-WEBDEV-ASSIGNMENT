@@ -1,3 +1,5 @@
+/* Styles exclusive for index.html with inheritance from style.css */
+/* Text and buttons in Discover section*/
 .slogan{
     text-align: center;
     padding-bottom: 2em;
@@ -33,6 +35,7 @@
     animation-timing-function: ease-in;
 }
 
+/* Background images for each buttons */
 #discover-phone-button{
     background-image: url(media/posterphone.jpg);
 }
@@ -49,6 +52,7 @@
     background-image: url(media/posterrecycle.jpg);
 }
 
+/* Description text for buttons*/
 .discover-desc{
     background-color: black;
     opacity: 0;
@@ -74,6 +78,7 @@
     text-align: center;
 }
 
+/* Background video */
 #bgVideo {
     position: fixed;
     right: 0;
@@ -84,6 +89,7 @@
     padding: 0;
 }
 
+/* Pause/Play button */
 .pausebutton{
     position: relative;
     display: flex;
@@ -110,7 +116,6 @@
     height: 40px;
     padding-top: 10px;
     vertical-align: middle;
-    /* border: 1px solid #FFFFFF; */
 }
 
 .pausebutton button:hover{
@@ -121,6 +126,7 @@
     display: inline-block;
 }
 
+/* Float up/down animation */
 @keyframes floatup {
     0%{
         transform: translate(0, 10px);

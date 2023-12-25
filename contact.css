@@ -1,7 +1,16 @@
+/* Styles exclusive for contact.html with inheritance from style.css */
 p {
     text-align: center;
 }
 
+.contactimg{
+    display: block;
+    height: 10vh;
+    width: auto;
+    margin: 1em auto 0;
+}
+
+/* Form */
 form {
     max-width: 600px;
     margin: 0 auto;
@@ -20,20 +29,13 @@ input, textarea {
     box-sizing: border-box;
 }
 
-button{
-    display: block;
-    margin-left: auto;
-    margin-right: 0;
-}
-
 textarea {
     resize: vertical;
     min-height: 4rem;
 }
 
-.contactimg{
+button{
     display: block;
-    height: 10vh;
-    width: auto;
-    margin: 1em auto 0;
+    margin-left: auto;
+    margin-right: 0;
 }

@@ -1,3 +1,5 @@
+/* Styles exclusive for products.html with inheritance from style.css */
+/* Product boxes*/
 .products-title{
     text-align: center;
 }
@@ -51,7 +53,6 @@
 }
 
 .product-text ul li{
-    /* list-style-type: none; */
     color: var(--dark-gray);
     list-style-position: inside;
     padding-left: 1em;
@@ -91,6 +92,7 @@ button:active{
     background-color: var(--light-red) ;
 }
 
+/* Slideshow*/
 .slideshow-container{
     max-width: 2000px;
     width: 100%;
