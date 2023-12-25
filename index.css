@@ -97,10 +97,10 @@
 }
 
 .pausebutton button{
-    width: 50px;
+    display: flex;
+    margin-left: 10px;
     cursor: pointer;
     opacity: 1;
-    padding-top: 1em;
     background-color: rgba(0, 0, 0, 0);
     color: white;
     opacity: 0.25;
@@ -113,8 +113,7 @@
     display: none;
     color: white;
     font-size: x-small;
-    height: 40px;
-    padding-top: 10px;
+    padding-top: 5px;
     vertical-align: middle;
 }
 
@@ -123,7 +122,7 @@
 }
 
 .pausebutton button:hover + #pauseplaytext{
-    display: inline-block;
+    display: flex;
 }
 
 /* Float up/down animation */
