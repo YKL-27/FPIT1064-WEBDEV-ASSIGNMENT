@@ -4,7 +4,6 @@ with inheritance from style.css */
     height: 40vh;
     display: grid;
     place-content: center;
-    font-family: 'Poppins' , sans-serif;
 }
 
 p{
