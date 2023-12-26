@@ -129,13 +129,13 @@ button:active{
 }
 
 .nextslide:active{
-    transform:scale(0.9);
-    translate: 2px 0;
+    transform: scale(0.9); 
+    transform: translateX(2px);
 }
 
 .prevslide:active{
-    transform:scale(0.9);
-    translate: -2px 0;
+    transform: scale(0.9); 
+    transform: translateX(-2px);
 }
 
 .fade{
